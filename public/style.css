@@ -1,0 +1,43 @@
+body {
+    background-image: url("/Media/Site-background-dark.png");
+    font-family: "Lilita One", sans-serif;
+    color: #651e00;
+}
+
+textarea {
+    margin-top: 2%;
+    resize: none;
+    font-family: "Lilita One", sans-serif;
+    color: #651e00;
+    background-color: #fe6a00;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 2px 2px white, -2px -2px white,2px -2px white,-2px 2px white;
+    width: 50%;
+    height: 50%;
+}
+
+header {
+    text-align: center;
+    color: #febd00;
+    text-shadow: 2px 2px black, -2px -2px black, -2px 2px black,2px -2px black;
+    
+}
+
+
+.form {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: #fe6a00;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 2px 2px white, -2px -2px white,2px -2px white,-2px 2px white;
+}
+
+form {
+    font-family: inherit;
+}

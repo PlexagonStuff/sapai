@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Media/Kappa.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SAP AI Pack Generator</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1> SAP AI Pack Generator</h1>
+    </header>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+    <div class="form">
+    <form id="form" action="" onsubmit="return false">
+       <p><input type="checkbox" name="freetoplay" value="freetoplay"> Free to Play</p>
+        <p><input type="checkbox" name="unicorn" value="unicorn"> Unicorn</p>
+        <p><input type="checkbox" name="star" value="star"> Star</p>
+        <p><input type="checkbox" name="golden" value="golden"> Golden</p>
+        <p><input type="checkbox" name="puppy" value="puppy"> Puppy</p>
+        <input type="text" name="prompt" id ="prompt"placeholder="Type Prompt Here">
+        <input type="submit" >
+        <p></p>
+    </form>
+  </div>
+    <textarea id="packGoesHere" readonly cols="50" rows="10"></textarea>
+  </div>
+    <script src="main.js"></script>
+  </body>
+
+
+</html>
